@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigFramework>
+   <Doc>Plant competition</Doc>
+      <Files>
+	 <File ftype="ma">plantcompma_1c_x_1d_balance.ma</File>
+         <File ftype="val">1c_x_1d.val</File>
+         <File ftype="inc">rules.inc</File>
+      </Files>
+   <Options>
+      <TimeOp>00:00:30:000</TimeOp>
+      <OnlyYMsgOP>true</OnlyYMsgOP>
+      <ParsingOp>false</ParsingOp>      
+   </Options>     
+   <DrawLog>
+      <CoupledModel>plantComp</CoupledModel>
+      <Width>3</Width>
+      <Precision>0</Precision>    
+      <NotPrintZero>true</NotPrintZero>   
+      <TimeInterval>00:00:00:100</TimeInterval> 
+   </DrawLog>  
+</ConfigFramework>
